@@ -39,6 +39,21 @@
                 </div>
             </div><!-- .col -->
         </div><!-- .row -->
+        
+
+
+        <div class="row gutter-vr-30px justify-content-between align-items-start align-items-md-start">
+
+            <div style="width: 100%;margin:auto">
+            <p>
+                We provide a flexible and transparent mechanism to attract investments and make more profits.
+            </p>
+            </div>
+        </div>
+
+
+
+
         <div class="row gutter-vr-30px">
                                     <div class="col-md-4">
                 <div class="career-menu">

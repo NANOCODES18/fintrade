@@ -30,7 +30,7 @@ class adminController extends Controller
 {
 
 
-    public  $website = "info@finvestrade.com";
+    public  $website = "info@Finvestrade-fm.com";
 
     public function __construct()
     {
@@ -524,7 +524,7 @@ class adminController extends Controller
         $user = User::where('email', $email)->first();
         if ($user == null || $user->count() < 1) {
             # code...
-            return redirect()->route('bonus_view')->with('error', 'Email does not exist uuuuuuuuuuuuuuuuuuuuuuuikdjdjdjjjjutututuuuu');
+            return redirect()->route('bonus_view')->with('error', 'Email does not exist ');
         }
 
         $user_funds = Fund::where('userid', $user->id)->first();
@@ -590,7 +590,7 @@ class adminController extends Controller
             if ($sendmailbonus > 0) {
 
                 $email = $user->email;
-                $mail = "This is to notify you that you recieved a Penalty on your account and $amount have been applied as penalty";
+                $mail = "This is to notify you that you recieved a Penalty on your account and $$amount have been applied as penalty";
                 $mailtitle = "Penalty Notification";
                 $emaildata = ['data' => $email, 'email_body' => $mail, 'email_header' => $mailtitle];
 
@@ -1008,7 +1008,7 @@ class adminController extends Controller
                     $user_fund->currentinvestment = $new_trading_balance;
                     $user_fund->balance = $new_bal;
                     $user_fund->save();
-                    return back()->with("success", "Investment of $amount in the $plan plan is succesful for the user");
+                    return back()->with("success", "Investment of $$amount in the $plan plan is succesful for the user");
                 } else {
                     # code...
                     return back()->with("error", "Investment failed please try again!");
@@ -1136,7 +1136,7 @@ class adminController extends Controller
         $dep = $depo_to_approve->save();
         if ($fu && $dep) {
             # code...
-            $mail = "Your deposit request of $depo_to_approve->amount have been received in your account and your account credited ";
+            $mail = "Your deposit request of $$depo_to_approve->amount have been received in your account and your account credited ";
             $mailtitle = "Deposit Approval Notification";
             $email = User::where('id', $depo_to_approve->userId)->first()->email;
             $emaildata = ['data' => $email, 'email_body' => $mail, 'email_header' => $mailtitle];

@@ -60,7 +60,7 @@
         </div><!-- .col -->
         <div class="col-lg-8">
             <div class="text-block">
-                <h5 class="heading-xs dash">Finvestrade</h5>
+                <h5 class="heading-xs dash">Finvestrade </h5>
                 <h2>Forex Trading</h2>
                 <p class="lead">
                                         Forex is a portmanteau of foreign currency and exchange.

@@ -51,10 +51,10 @@
         </div><!-- .col -->
         <div class="col-lg-8">
             <div class="text-block">
-                <h5 class="heading-xs dash">Finvestrade</h5>
+                <h5 class="heading-xs dash">Finvestrade </h5>
                 <h2>Cryptocurrencies</h2>
                 <p class="lead">
-                                        Finvestrade now offers all traders the opportunity to trade a wide range of the top ranked digital
+                                        Finvestrade  now offers all traders the opportunity to trade a wide range of the top ranked digital
                         coins 24/7*. Today cryptocurrencies have become known to most people as a conventional and popular investment option.
                         The main purpose of this new technology is to allow people to buy, trade, and invest without the need for
                         banks or any other financial institution. Cryptocurrencies are
@@ -74,13 +74,13 @@ Bitcoin and Bitcoin Cash, Dash, Ripple, Ethereum and Ethereum Classic.
     <div class="row justify-content-center gutter-vr-30px">
         <div class="col-12">
             <div class="text-box service-box bg-secondary h-full">
-                <h4 class="fw-6 mtm-5">Why trade Cryptocurrencies with Finvestrade?</h4>
+                <h4 class="fw-6 mtm-5">Why trade Cryptocurrencies with Finvestrade ?</h4>
                                         <p>
                                            Cryptocurrencies could potentially be the currency of the future with more people gaining interest and price
-                        value going up. Finvestrade offers competitive spreads, with no commissions charged on transactions making it
-                        more profitable. When trading with Finvestrade you are trading on the price changes of the digital coin, and not
+                        value going up. Finvestrade  offers competitive spreads, with no commissions charged on transactions making it
+                        more profitable. When trading with Finvestrade  you are trading on the price changes of the digital coin, and not
                         physically purchasing it.
-                        Trading with Finvestrade ensures that you will trade with a 100% reputable broker.
+                        Trading with Finvestrade  ensures that you will trade with a 100% reputable broker.
 
                                         </p>
             </div>

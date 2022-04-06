@@ -9,7 +9,7 @@
                     <div class="row align-items-center">
                         <div class="col-sm-2 order-last order-sm-first">
                             <ul class="social social-alt">
-                                {{-- <li><a href="https://t.me/FinvestradeCapital" class="fa fa-paper-plane"></a></li> --}}
+                                {{-- <li><a href="https://t.me/Finvestrade Capital" class="fa fa-paper-plane"></a></li> --}}
                                 <li><a href="https://wa.me/{{ $compd ? $compd->companyphone : '0' }}"
                                         class="fab fa-whatsapp"></a></li>
                                 <li><a href="mailto:{{ $compd ? $compd->companyemail : 'coming soon' }}"
@@ -27,7 +27,7 @@
                                     <span class="line line-left"></span>
                                 </div>
                                 <p class="sub-heading">A DIGITAL EXPERIENCE INVESTMENT COMPANY</p>
-                                <h1 class="banner-heading size-sm">Welcome to Finvestrade</h1>
+                                <h1 class="banner-heading size-sm">Welcome to Finvestrade </h1>
                                 <div class="banner-btn">
                                     <h6>Explore More</h6>
                                     <a href="{{ route('about') }}" class="btn-scroll"><em
@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="bg-image">
-                    <img src="images/banner-b.jpg" alt="">
+                    <img src="images/banner-b.png" alt="">
                 </div>
                 <!-- end bg -->
             </div>
@@ -62,7 +62,7 @@
                 </div>
                 <!-- bg -->
                 <div class="bg-image change-bg">
-                    <img src="images/banner-a.jpg" alt="banner">
+                    <img src="images/banner-a.png" alt="banner">
                 </div>
                 <!-- end bg -->
             </div>
@@ -84,7 +84,7 @@
                 </div>
                 <!-- bg -->
                 <div class="bg-image change-bg">
-                    <img src="images/banner-d.jpg" alt="banner">
+                    <img src="images/banner-d.png" alt="banner">
                 </div>
                 <!-- end bg -->
             </div>
@@ -107,7 +107,7 @@
                 </div>
                 <!-- bg -->
                 <div class="bg-image change-bg">
-                    <img src="images/banner-e.jpg" alt="banner">
+                    <img src="images/banner-e.png" alt="banner">
                 </div>
                 <!-- end bg -->
             </div>
@@ -152,12 +152,10 @@
 
                 <div class="col-lg-6">
                     <div class="text-block block-pad-b-100">
-                        <h5 class="heading-xs dash">About Finvestrade</h5>
+                        <h5 class="heading-xs dash">What is Finvestrade </h5>
                         <h2>TRUST, EXPERIENCE, EXPERTISE AND KNOWLEDGE</h2>
                         <p class="lead">
-                            We are an international financial company engaged in investment activities,
-                            which are related to trading on financial markets and
-                            cryptocurrency exchanges performed by qualified professional traders.
+                            FinVest Trade is a group of experienced Forex, stock, and cryptocurrency traders, as well as expert software developers, whose goal is to always profit from the financial market's volatility.
                         </p>
                         <a href="{{ route('about') }}" class="btn">More About Us</a>
                     </div><!-- .text-block  -->
@@ -223,7 +221,7 @@
 
                 <div class="col-lg-6">
                     <div class="text-block block-pad-b-100">
-                        <h5 class="heading-xs dash">Finvestrade Exchange</h5>
+                        <h5 class="heading-xs dash">Finvestrade  Exchange</h5>
                         <h2>OUR CRYPTO CURRENCY CONVERTER</h2>
                         <p class="lead">
 
@@ -268,6 +266,94 @@
         </div>
     </div>
 
+    <div class="section section-counter tc-light ">
+        <div class="container">
+
+            <div class="row gutter-vr-30px justify-content-between align-items-start    section-counter tc-light  bg-dark-alt"
+                style="width: 100%;padding:0px">
+
+                <div class="col-lg-12">
+                    <div class="text-block block-pad-b-100">
+                        <div style="width: 80%;margin: auto;text-align:center;margin-bottom:30px;">
+                            <h2>THE FOREX MARKET</h2>
+                            <h5 class="heading-xs dash " >FOREX MARKET</h5>
+                        
+                        </div>
+                        <div class="col-lg-6 order-lg-last" style="width: 100%;margin: auto">
+                   
+                            <div class="image-block">
+                                <img src="{{asset('images/forex.png')}}" alt="" style="width: 100%;border-radius:15px;">
+                            </div>
+        
+                        </div><!-- .col -->
+                        <br>
+                        <p class="lead" style="font-size: 26px;">
+                            The forex market has the highest liquidity in the world, with approximately $6 trillion traded in the market every day. This means that almost any currency can be purchased in large quantities at any time the market is open. Monday through Friday, the forex market is open 24 hours a day, five days a week. Trading begins with the opening of the 
+                            Australian market, followed by Asia, Europe, and the US market until the markets close for the weekend. The cryptocurrency market is the only market open on the weekend.
+                       
+
+                        </p>
+                        <a href="{{ route('about') }}" class="btn">More About Us</a>
+                    </div><!-- .text-block  -->
+                </div><!-- .col -->
+
+                
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section section-counter tc-light bg-dark-alt ">
+        <div class="container">
+
+            <div class="row gutter-vr-30px justify-content-between align-items-start    section-counter tc-light  bg-dark-alt"
+                style="width: 100%;padding:0px">
+
+                <div class="col-lg-12">
+                    <div class="text-block block-pad-b-100">
+                        <div style="width: 80%;margin: auto;text-align:center;margin-bottom:30px;">
+                            <h2>EXPERT ADVISOR ROBOT</h2>
+                            <h5 class="heading-xs dash " >FINVEST EXPERT ADVISOR ROBOT</h5>
+                        
+                        </div>
+                        <div class="col-lg-6 order-lg-last" style="width: 100%;margin: auto">
+                   
+                            <div class="image-block">
+                                <img src="{{asset('images/rob.png')}}" alt="" style="width: 100%;border-radius:15px;">
+                            </div>
+        
+                        </div><!-- .col -->
+                        <br>
+                        <p class="lead" style="font-size: 26px;">
+                            Following approximately ten years of dedicated trading and research in the Forex, 
+                            Stocks, and Crypto markets, the finest team has developed our proprietary world-class 
+                            AI analysis and trading product using the best available market technology.
+                            <br>
+                            AI robot-advisers analyze millions of data points and execute trades at the best price, 
+                            effectively mitigating risk and providing higher returns.
+                            <br>
+                            This artificial intelligence technology eliminates the possibility of human error and emotions influencing trades.
+                             We can execute trades with the right conditions while you
+                             continue to earn profits by combining our AI system and manual supervision.
+                            <br>
+                            Our AI Trading Robot System has a winning rate of 97% on average, allows for trading system customization 
+                            to make it suitable for any type of trader, 
+                            and will completely change the way you trade.
+                            <br>
+                            Our AI  trading robots work around the clock to perform comprehensive market analysis at all times to provide us with the best and most relaxing trading experience possible. Retain trading strategies with a high win rate automatically.
+
+                       
+
+                        </p>
+                        <a href="{{ route('about') }}" class="btn">More About Us</a>
+                    </div><!-- .text-block  -->
+                </div><!-- .col -->
+
+                
+            </div>
+
+        </div>
+    </div>
 
 
 
@@ -1079,7 +1165,7 @@
                     <div class="text-box mrm-20">
                         <h2>Our top minds make it happen with digital approach</h2>
                         <p>
-                            Finvestrade has been at the forefront of the digital fintech revolution
+                            Finvestrade  has been at the forefront of the digital fintech revolution
                             since her inception.
                         </p>
                     </div>
@@ -1089,52 +1175,52 @@
                         <div class="col-6">
                             <div class="counter counter-s2 counter-bdr border-bottom-0">
                                 <div class="counter-icon">
-                                    <em class="icon ti-user"></em>
+                                    <i class="fa fa-handshake-o" aria-hidden="true"></i>
                                 </div>
-                                <div class="counter-content counter-content-s2">
+                                 <div class="counter-content counter-content-s2">
                                     <h2 class="count"
                                         data-count="{{ $company_features ? $company_features->onlinevisitors : 0 }}">
                                         {{ $company_features ? $company_features->onlinevisitors : 0 }}</h2>
-                                    <p>Active Users</p>
+                                    <p>Transactions</p>
                                 </div>
                             </div>
                         </div><!-- .col -->
                         <div class="col-6">
                             <div class="counter counter-s2 counter-bdr border-bottom-0">
                                 <div class="counter-icon">
-                                    <em class="icon ti-calendar"></em>
+                                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
                                 </div>
                                 <div class="counter-content counter-content-s2">
                                     <h2 class="count"
                                         data-count="{{ $company_features ? $company_features->started : 0 }}">
                                         {{ $company_features ? $company_features->started : 0 }}</h2>
-                                    <p>Running Days</p>
+                                    <p>Operators</p>
                                 </div>
                             </div>
                         </div><!-- .col -->
                         <div class="col-6">
                             <div class="counter counter-s2 counter-bdr">
                                 <div class="counter-icon">
-                                    <em class="icon ti-upload"></em>
+                                    <i class="fa fa-university" aria-hidden="true"></i>
                                 </div>
                                 <div class="counter-content counter-content-s2">
                                     <h2 class="count"
                                         data-count="{{ $company_features ? $company_features->totaldeposit : 0 }}">
                                         {{ $company_features ? $company_features->totaldeposit : 0 }}</h2>
-                                    <p>Deposits(BTC)</p>
+                                    <p>Wallets</p>
                                 </div>
                             </div>
                         </div><!-- .col -->
                         <div class="col-6">
                             <div class="counter counter-s2 counter-bdr">
                                 <div class="counter-icon">
-                                    <em class="icon ti-download"></em>
+                                    <i class="fa fa-globe" aria-hidden="true"></i>
                                 </div>
                                 <div class="counter-content counter-content-s2">
                                     <h2 class="mrm-4 count"
                                         data-count="{{ $company_features ? $company_features->totalwithdrawn : 0 }}">
                                         {{ $company_features ? $company_features->totalwithdrawn : 0 }}</h2>
-                                    <p>Withdrawals(BTC)</p>
+                                    <p>Countries</p>
                                 </div>
                             </div>
                         </div><!-- .col -->
@@ -1282,7 +1368,7 @@
                 <div class="col-md-6">
                     <div class="text-block text-box-ml mtm-15">
                         <h2>Invest in Stocks <br><span style="font-weight: 100;">The advantages of investing in stocks on
-                                Finvestrade don’t end with pricing. There are also huge profit to be
+                                Finvestrade  don’t end with pricing. There are also huge profit to be
                                 made. It is also commission-free.</span> </h2>
                         <a href="{{ route('register') }}" class="btn btn-outline">Invest in Stocks</a>
                         <p class="mt-13" style="font-size: 12px;">
@@ -1332,7 +1418,7 @@
                     <div class="text-block text-box-ml mtm-15">
                         <h2>Explore an ever-expanding variety of cryptocurrencies,<br>
                             <span style="font-weight: 100;">
-                                and buy and sell the underlying asset on Finvestrade’s
+                                and buy and sell the underlying asset on Finvestrade ’s
                                 Cryptocurrency Trading Platform.
                                 Build your crypto-based portfolio and enjoy benefits not offered by most exchanges,
                                 such as near-immediate execution of market orders.
@@ -1423,7 +1509,7 @@
                             <p class="mt-13" style="font-size: 12px;">
                                 Land Banking Development Project is a secured and reliable Real Estate investment platform
                                 established by
-                                Finvestrade.
+                                Finvestrade .
                             </p>
 
                         </div>
@@ -1533,7 +1619,7 @@
 
                             <div class="tes-block">
                                 <div class="tes-content bg-light shadow-alt">
-                                    <p>I'm retired but Finvestrade got me! Real estate on here and
+                                    <p>I'm retired but Finvestrade  got me! Real estate on here and
                                         crypto is bullish</p>
                                 </div>
                                 <div class="tes-author d-flex align-items-center">
@@ -1553,7 +1639,7 @@
 
                             <div class="tes-block">
                                 <div class="tes-content bg-light shadow-alt">
-                                    <p>I appreciate my colleagues for introducing me to Finvestrade,
+                                    <p>I appreciate my colleagues for introducing me to Finvestrade ,
                                         it's been wow since I started investing 6 months ago</p>
                                 </div>
                                 <div class="tes-author d-flex align-items-center">
@@ -1593,7 +1679,7 @@
 
                             <div class="tes-block">
                                 <div class="tes-content bg-light shadow-alt">
-                                    <p>Ever since I started investing with Finvestrade since
+                                    <p>Ever since I started investing with Finvestrade  since
                                         lockdown
                                         period, I've not had issues with them</p>
                                 </div>
@@ -1616,7 +1702,7 @@
                                 <div class="tes-content bg-light shadow-alt">
                                     <p>I will never advocate anything that has to do with scam, so it's legit and
                                         transparent, I
-                                        started with $1000, my positions with Finvestrade has
+                                        started with $1000, my positions with Finvestrade  has
                                         increased
                                         since 4 months</p>
                                 </div>
@@ -1637,7 +1723,7 @@
 
                             <div class="tes-block">
                                 <div class="tes-content bg-light shadow-alt">
-                                    <p>Finvestrade is real, genuine and not a scam. I invested and I
+                                    <p>Finvestrade  is real, genuine and not a scam. I invested and I
                                         got
                                         paid</p>
                                 </div>
@@ -1660,9 +1746,9 @@
                                 <div class="tes-content bg-light shadow-alt">
                                     <p>I got furloughed during the COVID-19, I couldn't survive, until a friend recommended
                                         REEF
-                                        RESOURCES Financial Management, I can't imagine myself going back to work ever since
+                                        RESOURCES , I can't imagine myself going back to work ever since
                                         I
-                                        started investing with Finvestrade</p>
+                                        started investing with Finvestrade </p>
                                 </div>
                                 <div class="tes-author d-flex align-items-center">
                                     <div class="author-image">
@@ -1682,7 +1768,7 @@
                             <div class="tes-block">
                                 <div class="tes-content bg-light shadow-alt">
                                     <p>I'm happy that I can compound for months and receive my returns at the end of my
-                                        investment, thanks Finvestrade</p>
+                                        investment, thanks Finvestrade </p>
                                 </div>
                                 <div class="tes-author d-flex align-items-center">
                                     <div class="author-image">

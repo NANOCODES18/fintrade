@@ -54,7 +54,7 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="pricing-boxed pricing-boxed-s2">
                         <div class="pricing-price pricing-price-s2">
-                            <h2>{{$plan->plan }}</h2>
+                            <h2>{{$plan->name}}</h2>
                             <p></p>
                         </div>
                         <div class="pricing-feature pricing-feature-s2">
@@ -63,17 +63,18 @@
                                 <li>Max Deposit <b>${{$plan->maximum }}</b></li>
 
 
-                                <li>Monthly Profit <b>{{$plan->percentage  * $plan->noofrepeat}}%</b></li>
+                                <li>3 Months Profit<b>{{$plan->percentage  * $plan->noofrepeat}}%</b></li>
+                                <li>Daily  Profit <b>{{$plan->percentage }}%</b></li>
 
-                                <li>Duration <b>{{$plan->duration }} days</b></li>
+                                <li>Duration <b>{{$plan->noofrepeat }} days</b></li>
                             </ul>
                         </div>
                         <div class="pricing-cta pricing-cta-s2">
                             <div class="price">
-                                <h2>${{$loop->index + 1}}000 +</h2>
+                                <h2>${{($loop->index + 1) * 1000 + $plan->minimum }} +</h2>
                             </div>
                             <div class="cta-area">
-                                <a href="user/{{route('register')}}" style='padding: 10px 20px; margin-top: -12px;'
+                                <a href="{{route('login')}}" style='padding: 10px 20px; margin-top: -12px;'
                                     class="btn btn-sm">Get Started</a>
                             </div>
                         </div>
@@ -110,7 +111,7 @@
                 </div>
                 <div class="col-lg-4 text-lg-right text-center">
                     <div class="cta-btn">
-                        <a href="user/{{route('register')}}" class="btn btn-lg">Get Started</a>
+                        <a href="{{route('login')}}" class="btn btn-lg">Get Started</a>
                     </div>
                 </div>
             </div>

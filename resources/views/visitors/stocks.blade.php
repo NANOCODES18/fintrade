@@ -62,7 +62,7 @@
         </div><!-- .col -->
         <div class="col-lg-8">
             <div class="text-block">
-                <h5 class="heading-xs dash">Finvestrade</h5>
+                <h5 class="heading-xs dash">Finvestrade </h5>
 
                                         <h2>Stock or Share</h2>
                 <p class="lead">

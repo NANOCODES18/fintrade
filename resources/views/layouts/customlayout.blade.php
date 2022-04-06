@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from finvestrade.com/{{route('register')}} by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Dec 2021 10:31:50 GMT -->
+<!-- Mirrored from Finvestrade-fm.com/{{route('register')}} by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Dec 2021 10:31:50 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Finvestrade  | Account Management </title>
+    <title>Finvestrade   | Account Management </title>
     <meta name="theme-color" content="#282744">
     <!-- plugins:css -->
     <link rel="stylesheet" href="{{asset('assets/vendors/flag-icon-css/css/flag-icon.min.css')}}">
@@ -232,7 +232,7 @@ input[type="radio"][class="myRadio"] {
 @yield('body')
 
 <div class="wrapper mt-5 text-gray">
-    <p class="footer-text">Copyright © 2022 Finvestrade. All rights reserved.</p>
+    <p class="footer-text">Copyright © 2022 Finvestrade . All rights reserved.</p>
     <ul class="auth-footer text-gray">
       <li>
           <a href="{{route('about')}}">About Us</a>
@@ -445,5 +445,5 @@ $("iframe").contents().find('.goog-te-menu2').css({
 <!--End of Tawk.to Script-->
 </body>
 
-<!-- Mirrored from finvestrade.com/{{route('register')}} by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Dec 2021 10:31:50 GMT -->
+<!-- Mirrored from Finvestrade-fm.com/{{route('register')}} by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Dec 2021 10:31:50 GMT -->
 </html>

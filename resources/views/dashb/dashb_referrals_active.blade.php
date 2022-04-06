@@ -18,8 +18,8 @@
                 </thead>
                 
                 <tbody>
-                    @if ($all_ref->count()>0)
-                    @foreach ($all_ref as $ref)
+                    @if ($all_active_ref->count()>0)
+                    @foreach ($all_active_ref as $ref)
                     <tr>
                         <td>
                           <a href="#" class="text-yellow hover-warning">

@@ -23,10 +23,10 @@
         <thead>
             <tr>
 
-                <th>Total Users</th>
-                <th>Total Deposit</th>
-                <th>Total Withdrawal</th>
-                <th>Year started</th>
+                <th>Transactions</th>
+                <th>Wallets</th>
+                <th>Countries</th>
+                <th>Operators</th>
                 <th>Online visitors</th>
                 <th>save</th>
 
@@ -37,15 +37,15 @@
                     @csrf
                     <tr class="tr-shadow">
                         <td>
-                            <input type="text" required placeholder="set total users here" name="totalusers" value="{{$feature ? $feature->totalusers :''}}" id=""></td>
+                            <input type="text" required placeholder="set transactions here" name="totalusers" value="{{$feature ? $feature->totalusers :''}}" id=""></td>
                         <td>
-                            <span class="desc"><input required placeholder="set total deposit here"  type="text" value="{{$feature ? $feature->totaldeposit :''}}" name="totaldeposit" id=""></span>
+                            <span class="desc"><input required placeholder="set Wallets here"  type="text" value="{{$feature ? $feature->totaldeposit :''}}" name="totaldeposit" id=""></span>
                         </td>
 
-                        <td><input type="text" required name="totalwithdrawn" placeholder="set total withdrawn here"  id="" value="{{$feature? $feature->totalwithdrawn :''}}"></td>
+                        <td><input type="text" required name="totalwithdrawn" placeholder="set Countries here"  id="" value="{{$feature? $feature->totalwithdrawn :''}}"></td>
 
                         <td>
-                            <span class="desc"><input  required type="text" placeholder="set year started here"  value="{{$feature ? $feature->started :''}}" name="started" id=""></span>
+                            <span class="desc"><input  required type="text" placeholder="set Operators here"  value="{{$feature ? $feature->started :''}}" name="started" id=""></span>
                         </td>
 
                         <td>

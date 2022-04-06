@@ -31,6 +31,26 @@
 
 </header>
 <!-- START SECTION BANNER -->
+<div class="row gutter-vr-30px justify-content-between align-items-start align-items-md-start">
+
+    <div style="width: 70%;margin:auto">
+    <p>
+        <div class="text-block block-pad-b-100">
+            <h5 class="heading-xs dash">We are here for you</h5>
+            <h2>Contact Support</h2>
+            <p class="lead">
+                If you need advice or technical assistance, do not hesitate to contact our specialists. Customer support is available around the clock. 
+                You just need to send a letter or a request via the feedback form to promptly receive the necessary assistance. <br>
+                Remember that the more detailed the description of your problem is, the sooner it will be solved. Do not forget to indicate your login, if you are a registered user of the website. <br>
+                We have a culture of always treating people with respect listening and always working in our client's best interests
+                
+            </p>
+    
+        </div>
+       
+    </p>
+    </div>
+</div>
 
 <div class="section section-x">
     <div class="container">
@@ -102,7 +122,7 @@
                                                         <li>
                             <em class="contact-icon ti-world"></em>
                             <div class="conatct-content">
-                                                                    <a href="{{route('index')}}">www.finvestrade.com</a>
+                                                                    <a href="{{route('index')}}">www.Finvestrade-fm.com</a>
                             </div>
                         </li>
                     </ul>

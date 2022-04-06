@@ -23,7 +23,7 @@ Route::get('/', function () {
 });
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
+Auth::routes(['verify' => true]);
 
 
 //ADMIN
@@ -559,6 +559,7 @@ Route::get('/cryptoplans', [App\Http\Controllers\VisitorController::class, 'cryp
 Route::get('/realestateplan', [App\Http\Controllers\VisitorController::class, 'realestateplan'])->name('realestateplan');
 
 Route::get('/landbanking', [App\Http\Controllers\VisitorController::class, 'landbanking'])->name('landbanking');
+Route::get('/whychoseus', [App\Http\Controllers\VisitorController::class, 'whychoseus'])->name('whychoseus');
 
 
 

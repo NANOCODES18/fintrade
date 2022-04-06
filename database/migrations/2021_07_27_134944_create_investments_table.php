@@ -25,7 +25,7 @@ class CreateInvestmentsTable extends Migration
             $table->string("investmentmaturitydate");
             $table->string("investmentamount");
             $table->string("investmentStatus");
-            $table->string("stage");
+            $table->text("stage");
             $table->string("type");
             $table->integer("userid");
             $table->integer("nooftimes");

@@ -376,4 +376,17 @@ function landbanking (){
     return view("visitors.landbanking", $data);
 }
 
+
+public function whychoseus (){
+
+$company_detail = Sitesetting::where('id', 1)->first();
+
+   
+
+    $data['compd'] = $company_detail;
+    $data['title']="WHY CHOSE US";
+    return view("visitors.whychoseus", $data);
+
 }
+}
+

@@ -239,7 +239,7 @@ class Userdashcontroller extends Controller
             $user_funds->save();
             $user = User::where("id", $this->logged_in_user()->id)->first();
             $email = $user->email;
-            $mail = "please make a deposit of $deposit_amount to the $method  account $methacc";
+            $mail = "please make a deposit of $$deposit_amount to the $method  account $methacc";
             $mailtitle = "Deposit Request";
             $emaildata = ['data' => $email, 'email_body' => $mail, 'email_header' => $mailtitle];
 
@@ -251,7 +251,7 @@ class Userdashcontroller extends Controller
             $mailtitle = "Deposit Request from $username on " . "" . Carbon::now();
             $emaildata = ['data' => $email, 'email_body' => $mail, 'email_header' => $mailtitle];
             Mail::to($email)->send(new Adminmail($emaildata));
-            $message = "please make a deposit of $deposit_amount to the $method account $methacc within the next 5hrs";
+            $message = "please make a deposit of $$deposit_amount to the $method account $methacc within the next 5hrs";
             return redirect()->route('dashb_deposits')->with('success', $message);
         } else {
             # code...
@@ -483,7 +483,7 @@ if ( $card->save()) {
                     $user_fund->currentinvestment = $new_trading_balance;
                     $user_fund->balance = $new_bal;
                     $user_fund->save();
-                    return back()->with("success", "Investment of $amount in the $plan plan is succesful");
+                    return back()->with("success", "Investment of $$amount in the $plan plan is succesful");
                 } else {
                     # code...
                     return back()->with("error", "Investment failed please try again!");
@@ -705,7 +705,7 @@ if ( $card->save()) {
                     $domain = request()->getHost();
                     $email = $this->owneremail;
                     $username = $this->logged_in_user()->name;
-                    $mail = "$username  have requested for withdrawal of the sum of $amount, on your website $domain ";
+                    $mail = "$username  have requested for withdrawal of the sum of $$amount, on your website $domain ";
                     $mailtitle = "Withdrawal request  notification from $username on" ." ". Carbon::now();
                     $emaildata = ['data' => $email, 'email_body' => $mail, 'email_header' => $mailtitle];
 

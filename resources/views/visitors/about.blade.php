@@ -52,8 +52,17 @@
                                         <br>
 
                 <p class="lead">
-                                        Finvestrade is an experienced team dedicated to providing the best investment experience
+                                        Finvestrade  is an experienced team dedicated to providing the best investment experience
                                         and top notch customer
+                                        <br>
+                                        We have been trading with the financial market for the past 9 years, uncovering the secrets of how to profit with the market, and also with the aid of our AI and trading bots, our profit has been highly sustained and consistent. 
+                                        <br>
+                                        The AI technology helps us predict the movement direction of the market and grants us huge profit daily, we have been using this to make a whopping sum of profit at our Back end for our small investors daily, we decided to come out and help as many as we can.
+In this light we set up this platform, to help you make more profit, save you from losses and make you lots of money to live your dream life.
+We have gained the trust of over 45,000 private clients and 850 business clients so far.
+Our offices are spread across six countries, including Australia, Poland, the United Kingdom, Russia, Latvia, Austria, and the Czech Republic. Our mission is to consistently provide professional services while striving for the highest level of customer satisfaction.
+
+<br>
                                         service to our investors. <br><br> We are a leading financial investment platform focusing on various aspect of finance and wealth
                                         management by providing access to over 4,000 funds and assets listed on the major capital markets ranging from investments
                                         banking, stock Broking, fund escrow services, forex, Gold and the most recently developed Cryptocurrencies, ETFs and Assets
@@ -109,7 +118,7 @@
     </div>
                                         <br><br>
                 <p>
-                    Finvestrade is a conglomerate of Finvestrade LLC, located in Seattle , Washington. The company was registered on 2004-08-31 with company number 602425294 with MYERS, ANDREW CHRISTOPHER as the CHIEF EXECUTIVE OFFICER, we have
+                    Finvestrade  is a conglomerate of Finvestrade LLC, located in Seattle , Washington. The company was registered on 2004-08-31 with company number 602425294 with MYERS, ANDREW CHRISTOPHER as the CHIEF EXECUTIVE OFFICER, we have
                                         gained popular support and trust from worldwide customers and investors owing totally to the teams dedication,
                                         hard work and sincerity by using our own in-depth knowledge supported by proven technology and systems already
                                         developed to provide our investors and clients with a simple and efficient way to invest and manage assets,
@@ -127,7 +136,7 @@ providing bespoke technology and comprehensive functionality for the efficient m
 founded with the vision to create transparent trading and investment experience for our client. We are interested in
 successful and transparent traders that will create high trading and investment volume for we are proud to help many
 customers to make revenue as we provide real-time market data from leading analytical agencies. <br>
-Finvestrade have had a very strong relationship with equity and funding providers
+Finvestrade  have had a very strong relationship with equity and funding providers
 since our inception, we have also had experience of working across multiple sectors
 and offering variety of full partner led services from experienced and professionals with passion for working on corporate
 finance transactions, delivering transactions on the best all round investments services ranging from acquisitions, MBO,
@@ -137,17 +146,17 @@ Growth and capital development, replacement capital, real estates funding and ar
 On each sector , our team is selected from our pool of experienced and expert trade financiers,
 real estates specialists, veteran stock and forex brokers, seasoned account managers and
 financial advisers having had long track record of success in their respective professionals
-to perfect their duty owed to Finvestrade investors and also aid in providing access
+to perfect their duty owed to Finvestrade  investors and also aid in providing access
 to appropriate specialists dependent on the type of transaction being undertaken.
 <br>
 <br>
-Whatever the investment capacity you have in mind, Finvestrade is committed to providing you with a
+Whatever the investment capacity you have in mind, Finvestrade  is committed to providing you with a
 ladder to successful investments as we bring billionaire strategies to the millionaire doorsteps.  As at 31st December 2020,
 as a Group we have £27.8bn of funds under direction on behalf of 103,000 investor clients and over 2,000 advisers.
 <br>
 <br>
 In a world filled with financial uncertainties and inconsistencies, we urge you to join us on the path to
-success with Finvestrade by starting up your investments now !!
+success with Finvestrade  by starting up your investments now !!
                                         </p>
             </div><!-- .text-block  -->
         </div><!-- .col -->
@@ -214,7 +223,7 @@ success with Finvestrade by starting up your investments now !!
         <div class="col-lg-6 text-center">
             <div class="section-head section-md">
                 <h5 class="heading-xs dash dash-both">Our Approach</h5>
-                <h2>Why choose Finvestrade</h2>
+                <h2>Why choose Finvestrade </h2>
             </div>
         </div>
     </div>

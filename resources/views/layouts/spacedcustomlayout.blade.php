@@ -2,7 +2,7 @@
 <html lang="zxx" class="js">
 
 
-<!-- Mirrored from finvestrade.com/about.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Dec 2021 10:31:38 GMT -->
+
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     
@@ -24,9 +24,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<!-- Fav Icon  -->
-	<link rel="shortcut icon" href="images/logo-icon-b.png">
+	<link rel="shortcut icon" href="{{asset('images/logo-icon-b.png')}}">
+
 	<!-- Site Title  -->
-	<title>Finvestrade  | {{$title}}</title>
+	<title>Finvestrade   | {{$title}}</title>
 	<!-- Bundle and Base CSS -->
 	<link rel="stylesheet" href="{{asset('assets/css/vendor.bundle7f4a7f4a.css?ver=141')}}">
 	<link id="color-sheet" rel="stylesheet" href="{{asset('assets/css/style7f4a7f4a.css?ver=141')}}">
@@ -44,7 +45,7 @@
 
         <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'><link rel="stylesheet" href="style.html">
-
+<script src="https://use.fontawesome.com/af61f1c4fd.js"></script>
 <style>
 
     .watkey {
@@ -329,6 +330,8 @@ body {
 										<li class="menu-item"><a class="menu-link nav-link" href="{{{route('services')}}}">Our Services</a></li>
 										<li class="menu-item"><a class="menu-link nav-link" href="{{route('legal')}}">Legal</a></li>
 										<li class="menu-item"><a class="menu-link nav-link" href="{{route('policy')}}">Our Policy</a></li>
+                                        <li class="menu-item"><a class="menu-link nav-link" href="{{route('whychoseus')}}">Why Chose US</a></li>
+                                        
 
                                                                         </ul>
 								</li>
@@ -478,7 +481,7 @@ body {
                             <img src="images/logo-white.png" srcset="images/logo-white.png" alt="">
                         </a>
                     </div>
-                    <p>Finvestrade is the leading financial establishment providing high-quality international investment services. We are always ready to partner with you by offering full financial support to individuals and companies worldwide.</p>
+                    <p>Finvestrade  is the leading financial establishment providing high-quality international investment services. We are always ready to partner with you by offering full financial support to individuals and companies worldwide.</p>
                 </div>
                                     <br>
                                     <div class="wgs-content">
@@ -547,7 +550,7 @@ body {
     <div class="row align-items-center justify-content-between">
         <div class="col-md-6">
             <div class="copyright-content">
-                <p>&copy; 2021. All rights reserved. <a href="{{route('index')}}">Finvestrade</a></p>
+                <p>&copy; 2021. All rights reserved. <a href="{{route('index')}}">Finvestrade </a></p>
             </div>
         </div>
     </div>
@@ -723,5 +726,5 @@ $("iframe").contents().find('.goog-te-menu2').css({
 });
 </script></body>
 
-<!-- Mirrored from finvestrade.com/about.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Dec 2021 10:31:43 GMT -->
+<!-- Mirrored from Finvestrade-fm.com/about.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 23 Dec 2021 10:31:43 GMT -->
 </html>

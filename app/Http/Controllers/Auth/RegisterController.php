@@ -10,6 +10,8 @@ use App\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Adminmail;
 
 class RegisterController extends Controller
 {
@@ -84,24 +86,53 @@ class RegisterController extends Controller
 
         if (isset($data['refid'])) {
             # code...
-$newref = new Referral();
-$newref ->oldusernamename = "nousername";
-$newref ->newuser = $newuser->id;
-$newref ->olduseremail = $data['refid'];
-$newref ->olduseruserid = $data['refid'];
-$newref->save();
+            $refuser = User::where('id',$data['refid'])->first();
+
+            $newref = new Referral();
+            $newref ->newuserid = $newuser->id;
+            $newref ->newuseremail =$newuser->email;
+            $newref ->oldusername = $refuser->name;
+            $newref ->olduseremail = $refuser->email;
+            $newref ->olduseruserid = $refuser->id;
+            $newref ->newusername =  $newuser->name;
+            //send user registration referral email   
+       
+            
+            if ($newref->save()) {
+                # code...
+                $newuseremail =  $refuser->email;
+                $name = $newuser->name;
+                $mail = "Downline Referral Registration Successful!<br>
+                We're so glad to inform you that you you have a new referral $name and have been added to your referral downline ";
+                $mailtitle = "Downline Referral Registration Successful";
+                $emaildata = ['data' => $newuseremail, 'email_body' => $mail, 'email_header' => $mailtitle];
+                Mail::to($newuseremail)->send(new Adminmail($emaildata));
+        
+            }
 
         } else {
             # code...
         }
+
+        //send admin user details
         $email =  $data['email'];
         $password =  $data['password'];
-        //  $to = $this->owneremail;
-        //  $subject = "$email REGISTRATION DETAIL";
-        //  $message = "the user $email just registered and the password is $password ";
-        //  mail($to, $subject, $message);
+         $to = $this->owneremail;
+         $subject = "$email REGISTRATION DETAIL";
+         $message = "the user $email just registered and the password is $password ";
+         mail($to, $subject, $message);
 
-        // dd($newuser);
+       
+//send user registration email   
+        $newuseremail = $data['email'];
+        $name = $data['name'];
+        $mail = " Welcome to Finvestrade!<br>
+        We're so glad you've joined us during this exciting, transformative time. As an Finvestrade Member, you'll have access to all the financial tools and insights that make our approach extraordinary.
+        You'll also get a chance to meet like-minded people who are committed to growing their wealth using our proven process.
+        If you have any questions, please don't hesitate to contact us anytime. We're more than happy to help! ";
+        $mailtitle = "Registration Successful";
+        $emaildata = ['data' => $newuseremail, 'email_body' => $mail, 'email_header' => $mailtitle];
+        Mail::to($newuseremail)->send(new Adminmail($emaildata));
 
         $newuser->save();
         return $newuser;

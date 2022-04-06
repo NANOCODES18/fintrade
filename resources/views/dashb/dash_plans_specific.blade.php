@@ -22,12 +22,11 @@
         <!-- START Card With Image -->
         <div class="row">
             @if (isset($plans) && $plans->count() > 0)
-                @foreach ($plans as $plan)
+                @foreach ($plans as $plan) 
 
-
-                <div class="col-md-4 mb-4">
+                <div class="col-md-4">
                     <div class="card " style="padding:0px!important;box-shadow: 0 2px 28px rgb(0 0 0 / 10%);">
-                        <img class="card-img-top" src="{{ asset('images/plans/plan' . ($loop->index + 1) . '.png') }}" alt="Card image cap"> 
+                        <img class="card-img-top" src="{{asset('images/plans/plan' . ($loop->index + 1) . '.png') }}" alt="Card image" style="height:250px;">
                         <div class="card-body" style="padding:0;">
                             <h3 class="card-title text-center">{{ $plan->name }}</h3>
                             <div style="background-image: linear-gradient(to right bottom, #7070db, #24248f)!important;border-radius:7px;">
@@ -42,16 +41,16 @@
                                         <h6 class="text-center">Maximum</h6>
                                     </div>
                                 </div>
+                                <form action="{{ route('dashb_plans') }}" method="POST">
+                                    @csrf
+                                    <input type="text" hidden name="plan" value="{{ $plan->name }}" id="">
                                 <div class="row">
                                     <div class="col-10 offset-md-1">
-                                        <form action="{{ route('dashb_plans') }}" method="POST">
-                                            @csrf
-                                            <input type="text" hidden name="plan" value="{{ $plan->name }}" id="">
                                         <div class="form-group no-mb">
                                             <label class="text-center" style="color:white;font-weight:700;display:block;">Select Duration</label>
                                             <span class="desc"></span>
         
-                                            <select class="form-control mb-4" aria-label="Duration" placeholder="Select Duration">
+                                            <select class="form-control mb-4" aria-label="Duration" name="duration" placeholder="Select Duration">
                                                 <option value="30">{{ $plan->noofrepeat }} days</option>
                                             </select>
         
@@ -65,17 +64,15 @@
                                                 
                                             </div>
         
-                                            <button type="button" class="btn btn-primary mt-20" style="width:100%"> Proceed With Investment </button>
+                                            <button type="submit" class="btn btn-primary mt-20" style="width:100%"> Proceed With Investment </button>
                                         </div>
-                                    </form>
                                     </div>
                                 </div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
 
 
                 @endforeach
